@@ -1,24 +1,14 @@
-# python calculator
-This is a simple python calculator using if , else , elif statements
-
---->It first takes the wanted operator from user i.e, from (+,-,*,/).
-
---->It next takes two floating point numbers from user they are assigned to two variables called num1 , num2.
-
---->Then uses the first if statement to see whether the user entered "+" operator , if the user enters that operator the num1 and num2 are added and then returns the value after adding.
-
---->Then uses the first elif statement to see whether the user entered "-" operator , if the user enters that operator the num1 and num2 are subtracted and then returns the value after subtracting.
-
---->Then uses the second elif statement to see whether the user entered "*" operator , if the user enters that operator the num1 and num2 are multiplicated and then returns the value after multiplicating.
-
---->Then uses the third elif statement to see whether the user entered "/" operator , if the user enters that operator the num1 and num2 are divided and then returns the value after dividing.
-
---->Finally there will be an else statement , it checks the operator entered by user if the user entered an operator outside (+,-,*,/) it returns a print statement that basically says "the operator entered is invalid".
-
-# how to run
-In any command line like powershell , cmd prompt , bash
-just type "python filename.py" or "python3 filename.py"
-
-# Author
-k.Likhith Bhanu
-(https://github.com/samsepi0l-pen).
+# Interest calculator
+---->This is an interest calculator using python programming language.
+---->This program only uses a loop i.e, while loop.
+---->It first asks user for the Principle amount , Interest rate and Time in years.
+---->It then checks if the user entered zero or less than zero value in those three input fields.
+---->If the user enters zero or negative number it uses while loop and prompts the user to again enter the correct number infinite times.
+---->Now if the user enters a correct number for those three fields it uses a formula to calculate the profit i.e, 
+A = P(1+ R / 100)^T
+where,
+A = Profit
+P = Principle amount
+R = Interest rate
+T = Time
+---->It finally prints the profit amount.
